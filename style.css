@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 9fr;
+    grid-template-rows:200px 1fr ;
+}
+.sidebar{
+    background:#22d3ee;
+    border: 2px solid black;
+    grid-row: 1 / -1;
+    color: white;
+    display: grid;
+    grid-template-rows: 50px 200px 100px;
+    padding: 7px;
+}
+.dash .icon{
+   width: 30px;
+}
+.dash{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    font-size: x-large;
+}
+.header{
+    grid-column: 2 / -1;
+    background: blue;
+    border: 2px solid black;
+}
+.main{
+    background-color: darkgreen;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+
