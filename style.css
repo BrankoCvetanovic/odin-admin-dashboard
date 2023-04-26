@@ -93,6 +93,10 @@ body{
     width: 80px;
     height: 80px;
 }
+.profile img:hover{
+    width: 85px;
+    height: 85px;
+}
 .name{
     font-size: 1.5rem;
 }
@@ -118,8 +122,9 @@ gap:30px;
 .main{
     background-color:#27272a;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 4fr 1fr;
     padding: 40px;
+    gap:40px;
 }
 .cards{
 display: grid;
@@ -131,7 +136,6 @@ gap:20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;
     height: max-content;
     padding: 7px;
     border: 2px solid #101011;
@@ -139,12 +143,53 @@ gap:20px;
     text-align: center;
     background-color: #18181b;
 }
+.card:hover{
+    border:2px solid #232325
+}
 .action{
     display: flex;
     gap:10px;
     align-self: flex-end;
 }
-
+.announc{
+    background: #18181b;
+    font-size: 0.9rem;
+    padding: 10px;
+    display:grid;
+    grid-template-rows: auto auto auto;
+    gap:12px;
+    border: 2px solid #101011;
+    border-radius: 7px;
+    margin-bottom: 40px;
+}
+.announc div{
+    background-color:#ce212f5b ;
+    border-radius: 10px;
+    padding: 6px;
+}
+h4{
+    margin: 3px;
+}
+.trending{
+    background: #18181b;
+    font-size: 0.9rem;
+    padding: 10px;
+    display:grid;
+    grid-template-rows: auto auto auto auto;
+    gap: 12px;
+    border: 2px solid #101011;
+    border-radius: 7px;
+}
+.trending div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1rem;
+}
+.trending img{
+    width: 60px;
+    height: 60px;
+}
 ul{
     list-style-type: none;
     margin: 0;
